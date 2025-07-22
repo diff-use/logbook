@@ -1,0 +1,6 @@
+site_name: DiffUSE Logbook
+nav:
+  - Home: index.md
+theme: 
+  name: material
+  
