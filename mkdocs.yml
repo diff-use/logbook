@@ -1,6 +1,7 @@
 site_name: DiffUSE Logbook
 nav:
   - Home: index.md
+  - 2025-06-24 @ ALS 8.3.1: 
+    - Summary: 20250629_notes/20250629_notes.md
 theme: 
   name: material
-  
