@@ -1,6 +1,21 @@
-# Preliminary results from macrodomain diffuse scattering measurements at ALS 8.3.1 on June 24, 2025
+---
+date: 
+  created: 2025-06-29
+  updated: 2025-08-08
+tags:
+    - ALS 8.3.1
+    - macrodomain
+categories:
+    - Analysis
+authors:
+    - spmeisburger
+---
 
-Steve Meisburger, June 29, 2025. For team diff-USE.
+# Macrodomain @ ALS 8.3.1
+
+Preliminary results from macrodomain diffuse scattering measurements at ALS 8.3.1 on June 24, 2025
+
+<!-- more -->
 
 ## Summary
 
