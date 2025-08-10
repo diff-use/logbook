@@ -1,7 +1,25 @@
 site_name: DiffUSE Logbook
-nav:
-  - Home: index.md
-  - 2025-06-24 @ ALS 8.3.1: 
-    - Summary: 20250629_notes/20250629_notes.md
 theme: 
+  icon:
+    logo: fontawesome/solid/book-open
   name: material
+  palette:
+    #scheme: slate
+    #primary: purple
+    #accent: pink
+  features:
+#    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+plugins:
+  - tags
+  - blog:
+      authors: true
+      blog_dir: analysis
+      blog_toc: true
+      post_url_format: '{file}'
+      post_readtime: false
+      archive: false

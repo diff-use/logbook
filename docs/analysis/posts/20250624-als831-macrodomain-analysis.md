@@ -1,30 +1,26 @@
-# Preliminary results from macrodomain diffuse scattering measurements at ALS 8.3.1 on June 24, 2025
+---
+date: 
+  created: 2025-06-29
+  updated: 2025-08-08
+tags:
+    - ALS 8.3.1
+    - Macrodomain
+    - mdx2
+authors:
+    - spmeisburger
+---
 
-Steve Meisburger, June 29, 2025. For team diff-USE.
-
-## Summary
+# Preliminary results: macrodomain diffuse scattering at ALS 8.3.1 on June 24, 2025
 
 We collected diffraction data from several SARS-CoV-2 NSP3 macrodomain crystals at room temperature, and created preliminary diffuse maps for 3 crystals using mdx2. Interestingly, the diffuse maps appear quite different. The reason for this is not apparent yet.
 
+<!-- more -->
+
 I think more measurements should definitely be done if possible, and with greater care. However, the existing data are valuable as examples of how diffuse scattering might be influenced by beam properties, crystal handling, data processing algorithms, etc.
 
-## Data collection at 8.3.1
+## Data collection
 
-- James, Mehagan, and I collected data from 4 macrodomain crystals harvested from a single tray "Plate 1" provided by JF's lab.
-- There was some messing around before we got the dose right. So each dataset had different beam properties (divergence & flux).
-- The crystals were of moderate size (~ 100 x 200 x 200 µm^3)
-- I used the usual Ando lab method: MiTeGen plastic sleeves, background measurements.
-- I did NOT use a humidity controlled environment for harvesting (not enough time to set it up).
-
-Usable datasets:
-
-file prefix | tray, well | dose rate* | notes
---- | --- | --- | ---
-`H6_5` | tray 1, well H6 | high | 360 degrees, 0.1 deg/frame, spots decayed rapidly (damage)
-`H8_8` | tray 1, well H8 | medium | 360 degrees, 0.1 deg/frame, some damage toward the end?
-`G8_1` | tray 1, well G8 | low | 360 degrees, 0.1 deg/frame
-
-*by adjusting attenuators and mirror defocus, need to ask James H how to retrieve this info from metadata file
+[2025-06-24 @ ALS 8.3.1](../../beamtime/20250624-als.md)
 
 ## Bragg data results
 
