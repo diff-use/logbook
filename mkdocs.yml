@@ -1,17 +1,14 @@
 site_name: DiffUSE Logbook
-nav:
-  - Home: index.md
-  - Posts: 
-    - log/index.md
-    - log/tags.md
 theme: 
   icon:
     logo: fontawesome/solid/book-open
   name: material
   palette:
-    primary: blue grey
+    #scheme: slate
+    #primary: purple
+    #accent: pink
   features:
-    - navigation.indexes
+#    - navigation.indexes
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
@@ -21,11 +18,8 @@ plugins:
   - tags
   - blog:
       authors: true
-      blog_dir: log
+      blog_dir: analysis
       blog_toc: true
       post_url_format: '{file}'
       post_readtime: false
       archive: false
-      categories_allowed:
-        - Analysis
-        - Data
