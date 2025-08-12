@@ -4,8 +4,6 @@ hide:
   - toc
 ---
 
-A collection of notes on datasets, data collection, processing, and analysis. 
+# About
 
-Created by/for [Project DiffUSE](https://diffuse.science). 
-
-*Hosted on [GitHub](https://github.com/diff-use/logbook)*
+The diffUSE Logbook is an experiment in open science by [The Diffuse Project](https://diffuse.science). Its purpose is to catalog X-ray datasets, collect notes from synchrotron data collection, share reports from data processing, and post preliminary analysis without filters. 

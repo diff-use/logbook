@@ -1,12 +1,22 @@
-site_name: DiffUSE Logbook
+site_name: "Logbook"
+repo_url: https://github.com/diff-use/logbook
+site_url: https://diffuse.science/logbook
+site_description: "A logbook for the Diffuse Project"
+site_author: "The Diffuse Project"
+extra:
+  homepage: https://diffuse.science
+  homepage_title: The Diffuse Project
+  generator: true
+extra_css:
+  - stylesheets/extra.css
+copyright: "&copy; 2025 The Diffuse Project."
 theme: 
-  icon:
-    logo: fontawesome/solid/book-open
+  logo: assets/diffuse-logo-dark-sm.png
   name: material
+  custom_dir: overrides
   palette:
-    #scheme: slate
-    #primary: purple
-    #accent: pink
+    primary: black
+    accent: orange
   features:
 #    - navigation.indexes
     - navigation.tabs

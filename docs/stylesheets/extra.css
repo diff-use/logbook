@@ -1,0 +1,28 @@
+/* docs/stylesheets/extra.css */
+.md-banner {
+    background-color: #e35821
+        /* From diffuse.science */
+    ;
+    color: #ffffff;
+    padding: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    /* Add more styles as needed */
+}
+
+
+.md-header__button.md-logo {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 80%;
+    width: 80%;
+    /* flex-shrink: 0; */
+}
