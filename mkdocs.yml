@@ -25,6 +25,7 @@ theme:
     - navigation.path
     - toc.integrate
 plugins:
+  - meta
   - tags
   - blog:
       authors: true
