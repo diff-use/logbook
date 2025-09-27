@@ -34,3 +34,7 @@ plugins:
       post_url_format: '{file}'
       post_readtime: false
       archive: false
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
