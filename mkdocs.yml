@@ -1,5 +1,6 @@
 site_name: "Logbook"
 repo_url: https://github.com/diff-use/logbook
+repo_doi: 10.5281/zenodo.17351307
 site_url: https://diffuse.science/logbook
 site_description: "A logbook for the Diffuse Project"
 site_author: "The Diffuse Project"
@@ -29,11 +30,17 @@ plugins:
   - tags
   - blog:
       authors: true
-      blog_dir: analysis
+      blog_dir: .
       blog_toc: true
       post_url_format: '{file}'
       post_readtime: false
       archive: false
+  - mkdocs-jupyter:
+     include_source: True # adds a download button for .ipynb
+     show_input: False
+     no_input: True
+     ignore_h1_titles: True # filename will be the title
+
 markdown_extensions:
   - attr_list
   - md_in_html

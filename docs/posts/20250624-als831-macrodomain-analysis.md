@@ -1,7 +1,7 @@
 ---
 date: 
   created: 2025-06-29
-  updated: 2025-08-08
+  updated: 2026-02-09
 tags:
     - ALS 8.3.1
     - Mac1
@@ -10,31 +10,37 @@ authors:
     - spmeisburger
 ---
 
-# Preliminary results: macrodomain diffuse scattering at ALS 8.3.1 on June 24, 2025
+# Macrodomain diffuse scattering at ALS 8.3.1 on June 24, 2025
 
-We collected diffraction data from several SARS-CoV-2 NSP3 macrodomain crystals at room temperature, and created preliminary diffuse maps for 3 crystals using mdx2. Interestingly, the diffuse maps appear quite different. The reason for this is not apparent yet.
+We collected diffraction data from several SARS-CoV-2 NSP3 macrodomain crystals at room temperature, and created diffuse maps for 3 crystals using mdx2. From this preliminary analysis, the diffuse maps appear quite different. Why?
 
 <!-- more -->
 
-I think more measurements should definitely be done if possible, and with greater care. However, the existing data are valuable as examples of how diffuse scattering might be influenced by beam properties, crystal handling, data processing algorithms, etc.
+Follow-up measurements should definitely be done if possible, and with greater care. However, the existing data are valuable as examples of how diffuse scattering might be influenced by beam properties, crystal handling, data processing algorithms, etc.
 
 ## Data collection
 
-[2025-06-24 @ ALS 8.3.1](../../beamtime/20250624-als.md)
+[2025-06-24 @ ALS 8.3.1](../beamtime/20250624-als.md)
 
 ## Bragg data results
 
-- processed using xia2 (DIALS pipeline) 
+[DIALS processing of Mac1 data for diffuse scattering](../processing/20250624_als_mac1/dials_mac1)
+
+- processed using xia2 (DIALS pipeline)
 - cut the number of frames according to merging statistics (consistent Rmerge, B-factor increase < 2 Å^2, etc).
-    - `H6_5` (high dose rate): kept 900 frames (90 degrees)
-    - `H8_8` (medium dose rate): kept 3600 frames (360 degrees), but noted rise in R-merge beyond frame ~3000
-    - `G8_1` (low dose rate): kept 3600 frames (360 degrees)
+  - `H6_5` (high dose rate): kept 900 frames (90 degrees)
+  - `H8_8` (medium dose rate): kept 3600 frames (360 degrees), but noted rise in R-merge beyond frame ~3000
+  - `G8_1` (low dose rate): kept 3600 frames (360 degrees)
 - All 3 datasets processed to 1.08 Å (CC1/2 > 0.33), and have good statistics.
 - The unit cell dimensions are different by up to ~0.2 Å, perhaps from exposure to dry air during harvesting?
 
 ## Diffuse maps
 
-Processed using mdx2, integrating on a 2x2x4 (coarse) grid. Rendered slices in a non-halo plane (l=1/2), intensity scale is arbitrary (normalized to 1).
+Processed using mdx2, integrating on a 2x2x4 (coarse) grid. Rendered slices in a non-halo plane (l=1/2), intensity scale is arbitrary (normalized to 1). For details, see:
+
+- [Processing diffuse scattering for mac1 dataset H6](../processing/20250624_als_mac1/mdx2_mac1_H6)
+- [Processing diffuse scattering for mac1 dataset H8](../processing/20250624_als_mac1/mdx2_mac1_H8)
+- [Processing diffuse scattering for mac1 dataset G8](../processing/20250624_als_mac1/mdx2_mac1_G8)
 
 | `H6_5` (high dose rate) |
 | --- |
