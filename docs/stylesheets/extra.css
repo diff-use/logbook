@@ -26,3 +26,7 @@
     width: 80%;
     /* flex-shrink: 0; */
 }
+
+.md-typeset .grid {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr))
+}
